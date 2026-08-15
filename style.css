@@ -69,14 +69,17 @@ button {
 .brand {
     display: flex;
     align-items: center;
+    width: 120px;
+    height: 70px;
+    overflow: hidden;
 }
 
 .brand img {
-    width: 120px;
+    width: 150px;
     height: auto;
     display: block;
+    mix-blend-mode: multiply;
 }
-
 
 .navigation {
     display: flex;
