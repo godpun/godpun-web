@@ -67,13 +67,14 @@ button {
 
 
 .brand {
-    font-family: "Cormorant Garamond", Georgia, serif;
+    display: flex;
+    align-items: center;
+}
 
-    font-size: 25px;
-
-    font-weight: 600;
-
-    letter-spacing: 3px;
+.brand img {
+    width: 120px;
+    height: auto;
+    display: block;
 }
 
 
