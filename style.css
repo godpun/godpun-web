@@ -69,16 +69,14 @@ button {
 .brand {
     display: flex;
     align-items: center;
-    width: 120px;
-    height: 70px;
-    overflow: hidden;
+    width: 220px !important;
+    height: 90px !important;
 }
 
-.brand {
-    display: flex;
-    align-items: center;
-    width: 180px;
-    height: 80px;
+.brand img {
+    width: 260px !important;
+    height: auto;
+    display: block;
 }
 
 .brand img {
