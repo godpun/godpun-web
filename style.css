@@ -69,18 +69,12 @@ button {
 .brand {
     display: flex;
     align-items: center;
-    width: 220px !important;
-    height: 90px !important;
+    width: 220px;
+    height: 90px;
 }
 
 .brand img {
-    width: 260px !important;
-    height: auto;
-    display: block;
-}
-
-.brand img {
-    width: 180px;
+    width: 300px;
     height: auto;
     display: block;
 }
