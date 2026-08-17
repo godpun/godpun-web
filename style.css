@@ -46,15 +46,12 @@ button {
 
 .header {
     width: 100%;
-
-    height: 90px;
+    height: 120px;
 
     padding: 0 5vw;
 
     display: flex;
-
     align-items: center;
-
     justify-content: space-between;
 
     position: absolute;
@@ -66,20 +63,32 @@ button {
 }
 
 
+/* =========================
+   LOGO
+========================= */
+
 .brand {
     display: flex;
     align-items: center;
-    width: 220px;
-    height: 110px;
-    padding-top: 25px;
+    justify-content: flex-start;
+
+    width: 180px;
+    height: 120px;
+
+    flex-shrink: 0;
+
+    text-decoration: none;
 }
+
 
 .brand img {
-    width: 300px;
+    width: 170px;
     height: auto;
-    display: block;
-}
 
+    display: block;
+
+    flex-shrink: 0;
+}
 .navigation a {
     font-size: 11px;
 
